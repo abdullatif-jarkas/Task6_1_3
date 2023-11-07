@@ -1,0 +1,60 @@
+.possibilities {
+  margin-bottom: 200px;
+}
+.possibilities-img {
+  position: relative;
+}
+.possibilities img{
+  width: 100%;
+}
+.dots img {
+  width: unset;
+}
+.possibilities .dots {
+  position: absolute;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  bottom: 35%;
+}
+.possibilities .dots svg{
+  border-radius: 50%;
+  animation: dot 2s infinite;
+  cursor: pointer;
+  font-size: 9px;
+}
+@keyframes dot {
+  from {
+    box-shadow: 0 0 0 0px #ff00004b;
+  }
+  to {
+    box-shadow: 0 0 0 8px #ff000080;
+  }
+}
+.possibilities .section-card {
+  position: absolute;
+  left: -1194%;
+  width: 2500%;
+}
+.possibilities .dots span:nth-child(odd) .section-card {
+  bottom: -1000%;
+}
+.possibilities .dots span:nth-child(even) .section-card {
+  bottom: -1300%;
+}
+.possibilities .section-card::before {
+  content: '';
+  width: 1px;
+  background-color: #000;
+  position: absolute;
+  left: calc(50% - 1px);
+}
+.possibilities .dots span:nth-child(odd) .section-card::before {
+  top: -59px;
+  height: 50px;
+}
+.possibilities .dots span:nth-child(even) .section-card::before {
+  top: -131px;
+  height: 120px;
+}

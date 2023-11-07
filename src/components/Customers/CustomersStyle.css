@@ -1,0 +1,12 @@
+.customers {
+  background-image: url(./../../assets/imgs/customers-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+}
+.customers .section-header h2 {
+  color: #FFF;
+}
+.customers .customers-img {
+  width: fit-content;
+}

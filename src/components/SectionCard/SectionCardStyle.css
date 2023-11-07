@@ -1,0 +1,12 @@
+.section-card {
+  text-align: center;
+}
+.section-card img {
+  margin-bottom: 25px;
+}
+.section-card h6, .section-card h4 {
+  font-weight: 600;
+}
+.section-card p {
+  color: rgb(138, 138, 138);
+}

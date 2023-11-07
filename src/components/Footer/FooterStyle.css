@@ -1,0 +1,41 @@
+footer {
+  background-image: url(./../../assets/imgs/footer.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+footer .input-group {
+  max-width: 400px;
+}
+footer .input-group input:focus {
+  border: 1px solid red;
+}
+footer .input-group input::placeholder {
+  top: unset;
+}
+footer .input-group input:focus::placeholder {
+  transition: .3s;
+  transform: translateY(-30px);
+}
+footer .input-group button {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  right: 5px;
+  top: 3px;
+  border: 0;
+  background-color: #000;
+  z-index: 99999;
+}
+footer .input-group button::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 46%;
+  top: 50%;
+  display: block;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  border-right: 2px solid #FFF;
+  border-bottom: 2px solid #FFF;
+}

@@ -1,0 +1,7 @@
+.whats-different {
+  padding: 100px 0;
+}
+.whats-different .different-images {
+  display: flex;
+  gap: 28px;
+}

@@ -1,0 +1,21 @@
+.accordion-button::after, .accordion-button:not(.collapsed)::after {
+  content: unset;
+  background-image: unset;
+}
+.accordion > div {
+  background-color: transparent;
+  border: unset;
+  color: #FFF;
+}
+.accordion > div > h2 > button {
+  background-color: transparent !important;
+  border-bottom: 1px solid #FFF;
+  box-shadow: unset !important;
+  color: #FFF;
+}
+.accordion-button:not(.collapsed) {
+  color: #FFF !important;
+}
+.accordion-button:focus {
+  border-color: #FFF !important;
+}

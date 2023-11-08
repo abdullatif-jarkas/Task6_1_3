@@ -58,3 +58,19 @@
   top: -131px;
   height: 120px;
 }
+.modal-close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.modal-close-btn svg {
+  color: white;
+}

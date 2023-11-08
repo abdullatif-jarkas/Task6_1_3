@@ -1,3 +1,31 @@
 .carousel-indicators {
   display: none !important;
 }
+.carousel-inner > div:first-child .carousel-caption {
+  left: 60%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: fit-content;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 600;
+}
+.carousel-inner > div:nth-child(2) .carousel-caption {
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: fit-content;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+}
+.carousel-inner > div:last-child .carousel-caption {
+  left: 60%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: fit-content;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 600;
+}

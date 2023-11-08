@@ -1,3 +1,15 @@
 .innovate-img-container {
   width: fit-content;
 }
+
+@media screen and (max-width: 1200px) {
+  .first-col > div{
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .first-col > div, .second-col{
+    text-align: center;
+  }
+}

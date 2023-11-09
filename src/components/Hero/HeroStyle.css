@@ -1,0 +1,7 @@
+.carousel-control-next span, .carousel-control-prev span {
+  background-color: black;
+  border-radius: 50%;
+  padding: 15px;
+  border: 5px solid black;
+  outline: 1px solid white;
+}

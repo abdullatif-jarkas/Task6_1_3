@@ -1,0 +1,36 @@
+.add-to-cart {
+  position: absolute;
+  bottom: -40px;
+  cursor: pointer;
+}
+.arrivals-card:hover .add-to-cart {
+  bottom: 0;
+}
+.add-to-cart:hover {
+  background-color: var(--red-color) !important;
+}
+.arrivals-card:hover {
+  border: 1px solid var(--red-color) !important;
+}
+.arrivals-card img{
+  min-height: 100%;
+}
+/* .arrivals-card .card-body {
+  height: 7rem;
+} */
+.slider-img-container {
+  height: 17.4rem;
+  overflow: hidden;
+}
+.arrivals-card .stars::before {
+  content: "\2605\2605\2605\2605\2605";
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.6rem;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: var(--gradient-base-accent-2);
+  letter-spacing: 3px;
+  background-color: #ccc;
+  -webkit-text-stroke-color: #aaa;
+}

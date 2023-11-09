@@ -1,31 +1,59 @@
+.carousel-caption {
+  left: unset !important;
+}
 .carousel-indicators {
   display: none !important;
 }
 .carousel-inner > div:first-child .carousel-caption {
-  left: 60%;
-  top: 50%;
-  transform: translateY(-50%);
-  width: fit-content;
-  position: absolute;
-  font-size: 30px;
-  font-weight: 600;
+  right: 10%;
 }
 .carousel-inner > div:nth-child(2) .carousel-caption {
-  left: 10%;
-  top: 50%;
-  transform: translateY(-50%);
-  width: fit-content;
-  position: absolute;
-  font-size: 30px;
-  font-weight: 600;
+  left: 10% !important;
   color: black;
 }
 .carousel-inner > div:last-child .carousel-caption {
-  left: 60%;
+  right: 10%;
+}
+.carousel-inner > div:first-child .carousel-caption,
+.carousel-inner > div:nth-child(2) .carousel-caption,
+.carousel-inner > div:last-child .carousel-caption {
+  position: absolute;
+  width: 27rem;
   top: 50%;
   transform: translateY(-50%);
-  width: fit-content;
-  position: absolute;
   font-size: 30px;
   font-weight: 600;
+  font-weight: bold;
+}
+@media screen and (min-width: 992px) {
+  .carousel-inner > div:first-child .carousel-caption,
+  .carousel-inner > div:nth-child(2) .carousel-caption,
+  .carousel-inner > div:last-child .carousel-caption {
+    font-size: 4.5rem;
+    right: 15%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .carousel-inner > div:first-child .carousel-caption,
+  .carousel-inner > div:nth-child(2) .carousel-caption,
+  .carousel-inner > div:last-child .carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1rem;
+    background-color: black;
+    position: absolute;
+    width: 17rem;
+    height: 10rem;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    padding: 1rem 0;
+  }
+  .carousel-inner > div:nth-child(2) .carousel-caption {
+    background-color: white;
+  }
+  .carousel-inner > div h3, 
+  .carousel-inner > div p {
+    margin: 0;
+  }
 }

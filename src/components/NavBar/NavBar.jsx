@@ -84,13 +84,13 @@ const NavBar = () => {
           <div className="nav-body-container d-flex">
             <div className="nav-body-main-content d-none d-lg-flex">
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold mx-2" : isActive ? "active text-decoration-none text-dark fw-bold mx-2" : "text-decoration-none text-dark fw-bold mx-2"}>Home</NavLink>
-              <NavLink to="/" onClick={toggleVisibility} className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold mx-2" : isActive ? "active text-decoration-none text-dark fw-bold mx-2" : "text-decoration-none text-dark fw-bold mx-2"}>Collection<FontAwesomeIcon icon={faChevronDown} className='ms-2' /></NavLink>
+              <NavLink to="#" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold mx-2" : isActive ? "active text-decoration-none text-dark fw-bold mx-2" : "text-decoration-none text-dark fw-bold mx-2"}>Home</NavLink>
+              <NavLink to="#" onClick={toggleVisibility} className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold mx-2" : isActive ? "active text-decoration-none text-dark fw-bold mx-2" : "text-decoration-none text-dark fw-bold mx-2"}>Collection<FontAwesomeIcon icon={faChevronDown} className='ms-2' /></NavLink>
               <CollectionList visible={isVisible}/>
-              <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold mx-2" : isActive ? "active text-decoration-none text-dark fw-bold mx-2" : "text-decoration-none text-dark fw-bold mx-2" }>Shop</NavLink>
-              <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold mx-2" : isActive ? "active text-decoration-none text-dark fw-bold mx-2" : "text-decoration-none text-dark fw-bold mx-2" }>Android</NavLink>
-              <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold mx-2" : isActive ? "active text-decoration-none text-dark fw-bold mx-2" : "text-decoration-none text-dark fw-bold mx-2" }>Accessories</NavLink>
-              <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold mx-2" : isActive ? "active text-decoration-none text-dark fw-bold mx-2" : "text-decoration-none text-dark fw-bold mx-2" }>Memory & Storage</NavLink>
+              <NavLink to="#" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold mx-2" : isActive ? "active text-decoration-none text-dark fw-bold mx-2" : "text-decoration-none text-dark fw-bold mx-2" }>Shop</NavLink>
+              <NavLink to="#" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold mx-2" : isActive ? "active text-decoration-none text-dark fw-bold mx-2" : "text-decoration-none text-dark fw-bold mx-2" }>Android</NavLink>
+              <NavLink to="#" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold mx-2" : isActive ? "active text-decoration-none text-dark fw-bold mx-2" : "text-decoration-none text-dark fw-bold mx-2" }>Accessories</NavLink>
+              <NavLink to="#" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold mx-2" : isActive ? "active text-decoration-none text-dark fw-bold mx-2" : "text-decoration-none text-dark fw-bold mx-2" }>Memory & Storage</NavLink>
               <NavDropdown
                 className='fw-bold'
                 title="Pages"
@@ -119,8 +119,8 @@ const NavBar = () => {
         <Offcanvas show={show} onHide={handleClose}>
         <Button className='offcanvas-close-btn' variant="close" onClick={handleClose}></Button>
         <Offcanvas.Body className='d-flex flex-column gap-3'>
-          <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold offcanvas-link" : isActive ? "active text-decoration-none text-dark fw-bold offcanvas-link" : "text-decoration-none text-dark fw-bold offcanvas-link"}>Home</NavLink>
-          <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold offcanvas-link d-flex justify-content-between" : isActive ? "active text-decoration-none text-dark fw-bold offcanvas-link d-flex justify-content-between" : "text-decoration-none text-dark fw-bold offcanvas-link d-flex justify-content-between"}>
+          <NavLink to="#" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold offcanvas-link" : isActive ? "active text-decoration-none text-dark fw-bold offcanvas-link" : "text-decoration-none text-dark fw-bold offcanvas-link"}>Home</NavLink>
+          <NavLink to="#" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold offcanvas-link d-flex justify-content-between" : isActive ? "active text-decoration-none text-dark fw-bold offcanvas-link d-flex justify-content-between" : "text-decoration-none text-dark fw-bold offcanvas-link d-flex justify-content-between"}>
             Collection <FontAwesomeIcon onClick={handleShow2} icon={faArrowRight} className='mx-2 fs-3' />
             <Offcanvas show={show2}>
             <Button variant='light' onClick={handleClose2} className='d-flex d-lg-none border-0 bg-transparent'>
@@ -163,11 +163,11 @@ const NavBar = () => {
             </Offcanvas.Body>
           </Offcanvas>
           </NavLink>
-          <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold offcanvas-link" : isActive ? "active text-decoration-none text-dark fw-bold offcanvas-link" : "text-decoration-none text-dark fw-bold offcanvas-link" }>Shop</NavLink>
-          <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold offcanvas-link" : isActive ? "active text-decoration-none text-dark fw-bold offcanvas-link" : "text-decoration-none text-dark fw-bold offcanvas-link" }>Android</NavLink>
-          <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold offcanvas-link" : isActive ? "active text-decoration-none text-dark fw-bold offcanvas-link" : "text-decoration-none text-dark fw-bold offcanvas-link" }>Accessories</NavLink>
-          <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold offcanvas-link" : isActive ? "active text-decoration-none text-dark fw-bold offcanvas-link" : "text-decoration-none text-dark fw-bold offcanvas-link" }>Memory & Storage</NavLink>
-          <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold offcanvas-link d-flex justify-content-between" : isActive ? "active text-decoration-none text-dark fw-bold offcanvas-link d-flex justify-content-between" : "text-decoration-none text-dark fw-bold offcanvas-link d-flex justify-content-between" }>
+          <NavLink to="#" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold offcanvas-link" : isActive ? "active text-decoration-none text-dark fw-bold offcanvas-link" : "text-decoration-none text-dark fw-bold offcanvas-link" }>Shop</NavLink>
+          <NavLink to="#" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold offcanvas-link" : isActive ? "active text-decoration-none text-dark fw-bold offcanvas-link" : "text-decoration-none text-dark fw-bold offcanvas-link" }>Android</NavLink>
+          <NavLink to="#" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold offcanvas-link" : isActive ? "active text-decoration-none text-dark fw-bold offcanvas-link" : "text-decoration-none text-dark fw-bold offcanvas-link" }>Accessories</NavLink>
+          <NavLink to="#" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold offcanvas-link" : isActive ? "active text-decoration-none text-dark fw-bold offcanvas-link" : "text-decoration-none text-dark fw-bold offcanvas-link" }>Memory & Storage</NavLink>
+          <NavLink to="#" className={({ isActive, isPending }) => isPending ? "pending text-decoration-none text-dark fw-bold offcanvas-link d-flex justify-content-between" : isActive ? "active text-decoration-none text-dark fw-bold offcanvas-link d-flex justify-content-between" : "text-decoration-none text-dark fw-bold offcanvas-link d-flex justify-content-between" }>
             Pages <FontAwesomeIcon onClick={handleShow3} icon={faArrowRight} className='mx-2 fs-3' />
             <Offcanvas show={show3}>
               <Button variant='light' onClick={handleClose3} className='d-flex d-lg-none border-0 bg-transparent'>

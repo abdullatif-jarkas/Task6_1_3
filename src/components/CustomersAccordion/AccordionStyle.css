@@ -19,3 +19,12 @@
 .accordion-button:focus {
   border-color: #FFF !important;
 }
+.accordion-button::after {
+  content: unset !important;
+}
+.accordion-item .accordion-button {
+  justify-content: space-between !important;
+}
+.rotate {
+  rotate: 180deg;
+}

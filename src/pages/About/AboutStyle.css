@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+.about {
+  font-family: "Agbalumo";
+  text-align: center;
+}
+.about h1 {
+  font-size: 6rem;
+}
+.about span {
+  color: #ff8500;
+}
+.about p {
+  width: 800px;
+  margin: 0 auto;
+  color: #aaa;
+  letter-spacing: 1px;
+}
+.about svg {
+  color: #ff8500;
+}
+.about hr {
+  width: 500px;
+  margin: 2rem auto;
+  border: 1px solid #ff8500;
+  opacity: .7;
+}
+.instructors {
+  color: #ff8500;
+}

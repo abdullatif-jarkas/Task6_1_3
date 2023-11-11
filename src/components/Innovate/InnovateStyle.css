@@ -1,5 +1,6 @@
 .innovate-img-container {
   width: fit-content;
+  max-width: 381px;
 }
 
 @media screen and (max-width: 1200px) {

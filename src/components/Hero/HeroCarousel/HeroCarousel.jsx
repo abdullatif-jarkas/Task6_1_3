@@ -8,6 +8,7 @@ import './HeroCarouselStyle.css'
 import HeroButton from '../HeroButton/HeroButton';
 
 function HeroCarousel() {
+
   return (
     <Carousel fade>
       {/* Item 1 */}

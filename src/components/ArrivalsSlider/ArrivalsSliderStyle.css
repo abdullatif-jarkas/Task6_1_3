@@ -7,3 +7,20 @@
   margin: 0 auto;
   width: 98% !important;
 }
+.slick-prev {
+  left: -17px !important;
+}
+.slick-next {
+  right: -17px !important;
+}
+.slick-prev, .slick-next {
+  background-color: transparent !important;
+  z-index: 999;
+}
+.slick-prev:before, .slick-next:before {
+  color: black !important;
+  mix-blend-mode: difference !important;
+}
+.slick-prev:before:hover, .slick-next:before:hover {
+  border: 4px solid white !important;
+}

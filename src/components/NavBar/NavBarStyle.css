@@ -57,3 +57,36 @@ nav .offcanvas-body div > a:hover {
     top: 95px !important;
   }
 }
+
+.flags-menu {
+  position: absolute;
+  width: 15rem;
+  background-color: white;
+  right: -2rem;
+  top: -25rem;
+  padding: 10px !important;
+  height: 300px;
+  overflow: auto;
+  border-top: 5px solid var(--red-color);
+  border-bottom: 5px solid var(--red-color);
+  opacity: 0;
+}
+.show-flags-menu {
+  top: 4rem !important;
+  opacity: 1 !important;
+}
+.flags-menu li {
+  padding: 10px;
+  margin: 4px 0;
+  border-radius: 5px;
+}
+.flags-menu li:hover {
+  background-color: #eee;
+}
+.flags-menu p {
+  cursor: pointer;
+  margin: 0;
+}
+.flags-menu hr {
+  margin: 0;
+}

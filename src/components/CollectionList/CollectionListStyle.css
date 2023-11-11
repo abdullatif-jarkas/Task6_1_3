@@ -1,0 +1,14 @@
+.collection-list {
+  top: -25rem;
+  opacity: 0;
+  width: 900px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.collection-list img {
+  height: 336px;
+}
+.list-shown {
+  opacity: 1;
+  top: 5rem;
+}

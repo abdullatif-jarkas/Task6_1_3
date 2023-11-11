@@ -23,7 +23,7 @@ const Innovate = () => {
           </Col>
           <Col xs={12} xl={4} className='order-xl-1'>
             <div className="innovate-img-container mx-auto">
-              <img src={Img} alt="Phone Img" />
+              <img className='w-100' src={Img} alt="Phone Img" />
             </div>
           </Col>
           <Col xs={12} sm={6} xl={4} className='second-col d-flex flex-column justify-content-around order-1 order-xl-2'>

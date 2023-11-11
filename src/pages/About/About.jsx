@@ -1,7 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import Possibilities from "../../components/Possibilities/Possibilities"
-import SectionHeader from "../../components/SectionHeader/SectionHeader"
-import WhatsDifferent from "../../components/WhatsDifferent/WhatsDifferent"
 import './AboutStyle.css'
 import { faHeart } from "@fortawesome/free-solid-svg-icons"
 

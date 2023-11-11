@@ -60,12 +60,12 @@ nav .offcanvas-body div > a:hover {
 
 .flags-menu {
   position: absolute;
-  width: 15rem;
+  width: 7rem;
   background-color: white;
-  right: -2rem;
+  right: 0;
   top: -25rem;
   padding: 10px !important;
-  height: 300px;
+  height: 240px;
   overflow: auto;
   border-top: 5px solid var(--red-color);
   border-bottom: 5px solid var(--red-color);
@@ -79,9 +79,13 @@ nav .offcanvas-body div > a:hover {
   padding: 10px;
   margin: 4px 0;
   border-radius: 5px;
+  cursor: pointer;
 }
 .flags-menu li:hover {
   background-color: #eee;
+}
+.flags-menu img {
+  width: 30px;
 }
 .flags-menu p {
   cursor: pointer;
@@ -89,4 +93,11 @@ nav .offcanvas-body div > a:hover {
 }
 .flags-menu hr {
   margin: 0;
+}
+.offcanvas-pages-body li:hover {
+  background-color: #eee;
+}
+.collection-offcanvas li:hover{
+  color: var(--red-color);
+  cursor: pointer;
 }
